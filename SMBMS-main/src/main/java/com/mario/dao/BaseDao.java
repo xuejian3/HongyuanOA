@@ -31,7 +31,7 @@ public class BaseDao {
         password = properties.getProperty("password");
     }
 
-    //获取数据库的链接
+    //获取数据 库的链接
     public static Connection getConnection(){
         Connection connection = null;
         try {
